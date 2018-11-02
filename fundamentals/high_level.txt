@@ -1,0 +1,62 @@
+C for Beginners Udemy
+=====================
+
+Terminology:
+
+- CPU: central processing unit
+  does most of the computing work
+  instructions are executed here
+
+- RAM: random access memory
+  stores the data of a program while it is running
+
+- Hard drive: permanent storage
+  stores files that contain program source code even while the computer is
+  turned off
+
+- Operating System: 
+  developed to help make it more convenient to use computers
+  a program that controls the entire operation of a computer
+    - all input and output
+    - manages the computer's resources and handles the execution of programs
+    - Windows, Unix, Android, etc.
+
+- fetch / execute cycle (life of a CPU)
+  fetches an instruction from memory (using registers) and executes it (loop)
+  a gigahertz CPU can do this about a billion times a second
+
+- Higher level programming languages:
+- high-level programming languages make it easier to write programs
+  opposite of assembly language
+  c is a higher level programming language that describes actions in a more abstract form
+  the instructions (statements) of a program look more like problem solving steps
+  do not have to worry about the precise steps a particular CPU would have to take to 
+    accomplish a particular task
+    - total = x + //vs// mv ax, 5, mv cx 4, etc...
+
+- Compilers:
+  a program that translates the high-level language source code into the detailed set of 
+  machine language instructions the computer requires
+
+  the program does the high-level thinking and the compiler generates the tedious 
+  instructions to the CPU
+
+  will check that your program has valid syntax for the programming language that you
+  are compiling
+    - finds errors and it reports them to you and doesn't produce an executable until 
+    you fix them
+
+  high-level languages are easier to learn and much easier to program in than are 
+  machine languages
+
+Steps to designing a program:
+  1. define the program objectives
+  2. design the program
+  3. write the code
+  4. compile
+  5. run the program
+  6. test and debug the program
+  7. maintain and modify the program
+
+
+
