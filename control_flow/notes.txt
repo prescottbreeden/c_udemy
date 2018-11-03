@@ -1,0 +1,28 @@
+Control Flow
+
+Statements inside your source files are generally executed form top to bottom, in the order they appear
+
+Control flow statements break up the flow of execution by employing decision making, looping, and branching, enabling
+your program to conditionally execute particular blocks of code
+
+- Decision-making statements
+  - if then else
+  - switch
+  - goto
+
+- Looping statements
+  - for
+  - while
+  - do-while
+
+- branching statements
+  - break
+  - continue
+  - return
+
+
+Decision Making
+===============
+Evaluate conditions to create decision tree
+
+
