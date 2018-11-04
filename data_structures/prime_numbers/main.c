@@ -25,27 +25,19 @@ int main() {
   int pIndex = 0;
 
   for (int n = 2; n <= 100; n++) {
-    printf("evaluating %d\n", n);
     isPrime = 1;
     test = n - 1;
     while (test != 1) {
-      if (n % test != 0) {
-        continue;
-      }
-      else {
+      if (n % test == 0) {
         isPrime = 0;
-        printf("%d % %d == 0\n", n, test);
-        break;
       }
       test--;
     }
-    if (isPrime) {
+    if (isPrime == 1) {
       primes[pIndex] = n;
       pIndex++;
-      printf("%d\n", n);
+      printf("added %d to primes\n", n);
     }
   };
-
-
   return 0;
 }
