@@ -18,23 +18,20 @@ print -52 to 1066
 
 // leapyear() - if divisible by 4 and not divisible by 100
 
-print integers multiples of 5 from 512 to 4096 and how many there are
+// print integers multiples of 5 from 512 to 4096 and how many there are
 
-what do you know: 
-  function takes an input paramter incoming, print the value
+// what do you know - function takes an input paramter incoming, print the value
 
-add odd integers from -300,000 to 300,000 and print final sum
-  is there a shortcut?
+// add odd integers from -300,000 to 300,000 and print final sum - is there a shortcut?
 
-print positive numbers starting at 2016 counting down by 4s (excluding 0)
-  do not use for loop
+/ print positive numbers starting at 2016 counting down by 4s (excluding 0) - do not use for loop
 
-flexible countdown:
-  given lowNum, highNum, mult, print multiples of mult from highNum down to 
-  lowNum
-  use for loop
+// flexible countdown:
+//   given lowNum, highNum, mult, print multiples of mult from highNum down to 
+//   lowNum
+//   use for loop
 
-final countdown:
-  given param1, param2, param3, param4: print multiples of param1 starting at 
-  param2 and extending to param3.  if a multiple is equal to param4 then skip
-  use a while loop
+// final countdown:
+//   given param1, param2, param3, param4: print multiples of param1 starting at 
+//   param2 and extending to param3.  if a multiple is equal to param4 then skip
+//   use a while loop

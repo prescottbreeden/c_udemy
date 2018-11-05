@@ -73,6 +73,86 @@ void leapYear(int year) {
   }
 }
 
+void algo4() {
+  int i;
+  int start;
+  int end;
+  int count;
+
+  start = 512;
+  end = 4096;
+  i = start;
+  count = 0;
+
+  while (i <= end) {
+    if (i % 5 == 0) {
+      printf("%5d", i);
+      count++;
+    }
+    i++;
+  }
+  printf("\nTotal multiples of 5: %d\n", count);
+}
+
+int whatsThat(int x) {
+  printf("That's: %d\n", x);
+  return x;
+}
+
+void printOdd() {
+  int end;
+  int sum;
+  end = 300000;
+  for (int i = 1; i <= end; i += 2) {
+    sum += i; 
+  }
+  sum *= 2;
+  printf("Sum: %d\n", sum);
+}
+
+void printNums() {
+  int start = 2016;
+  int end = 1;
+
+  while (start >= end) {
+    printf("%5d", start);
+    start -= 4;
+  }
+}
+
+void flexCount(int lowNum, int highNum, int mult) {
+  for (int i = highNum; i >= lowNum; i--) {
+    if (i % mult == 0) {
+      printf("%5d", i);
+    }
+  }
+}
+
+void finalCount(int param1, int param2, int param3, int param4) {
+  int start = param2;
+  int end = param3;
+  if (start > end) {
+    while (start > end) {
+      if (start % param1 != param4) {
+        if (start % param1 == 0) {
+          printf("%5d", start);
+        }
+      } 
+      start--;
+    }
+  }
+  else {
+    while (start < end) {
+      if (start % param1 != param4) {
+        if (start % param1 == 0) {
+          printf("%5d", start);
+        }
+      } 
+      start++;
+    }
+  }
+}
+
 int main() {
 
   printf("\n");
@@ -103,6 +183,33 @@ int main() {
 
   printf("\n=======================\n");
   printf("\n");
+
+  algo4();
+
+  printf("\n=======================\n");
+  printf("\n");
+
+  printOdd();  
+
+  printf("\n=======================\n");
+  printf("\n");
+
+  printNums();  
+
+  printf("\n=======================\n");
+  printf("\n");
+
+  flexCount(0, 10, 2);  
+
+  printf("\n=======================\n");
+  printf("\n");
+
+  finalCount(2, 5, 100, 1);  
+
+  printf("\n=======================\n");
+  printf("\n");
+
+
 
   return 0;
 }
